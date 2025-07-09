@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>SSC CGL Study | sss.nic.gov.ankan</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0; padding: 0;
+      background: #f0f2f5;
+    }
+    header {
+      background: #004aad;
+      color: white;
+      padding: 1rem;
+      text-align: center;
+    }
+    nav {
+      display: flex;
+      justify-content: center;
+      background: #e0e0e0;
+      gap: 1rem;
+      padding: 0.5rem;
+      flex-wrap: wrap;
+    }
+    nav a {
+      text-decoration: none;
+      color: #004aad;
+      font-weight: bold;
+    }
+    .section {
+      padding: 2rem;
+    }
+    h2 {
+      color: #004aad;
+    }
+    .card {
+      background: white;
+      padding: 1rem;
+      margin-bottom: 1rem;
+      border-radius: 8px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    }
+    footer {
+      text-align: center;
+      background: #004aad;
+      color: white;
+      padding: 1rem;
+      margin-top: 2rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>SSC CGL Study Portal</h1>
+    <p>Website: sss.nic.gov.ankan</p>
+  </header>
+
+  <nav>
+    <a href="#gk">General Awareness</a>
+    <a href="#maths">Quantitative Aptitude</a>
+    <a href="#reasoning">Reasoning</a>
+    <a href="#english">English</a>
+  </nav>
+
+  <div class="section" id="gk">
+    <h2>General Awareness</h2>
+    <div class="card">
+      <p><strong>PDF:</strong> <a href="#">Indian Polity Notes</a></p>
+      <p><strong>Video:</strong> <a href="https://www.youtube.com/watch?v=abcd1234" target="_blank">Current Affairs July</a></p>
+    </div>
+  </div>
+
+  <div class="section" id="maths">
+    <h2>Quantitative Aptitude</h2>
+    <div class="card">
+      <p><strong>PDF:</strong> <a href="#">Mensuration Tricks</a></p>
+      <p><strong>Video:</strong> <a href="https://www.youtube.com/watch?v=xyz5678" target="_blank">Speed Maths Tips</a></p>
+    </div>
+  </div>
+
+  <div class="section" id="reasoning">
+    <h2>Reasoning</h2>
+    <div class="card">
+      <p><strong>PDF:</strong> <a href="#">Syllogism Shortcuts</a></p>
+      <p><strong>Video:</strong> <a href="https://www.youtube.com/watch?v=pqrs2468" target="_blank">Reasoning Puzzle Practice</a></p>
+    </div>
+  </div>
+
+  <div class="section" id="english">
+    <h2>English</h2>      
+    <div class="card">
+      <p><strong>PDF:</strong> <a href="#">Grammar Rules Summary</a></p>
+      <p><strong>Video:</strong> <a href="https://www.youtube.com/watch?v=efgh9012" target="_blank">Error Detection Practice</a></p>
+    </div>
+  </div>
+
+  <footer>
+    &copy; 2025 SSC CGL Study | This is a demo website
+  </footer>
+</body>
+</html>
